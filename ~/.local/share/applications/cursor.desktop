@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Cursor
+Comment=The AI-first code editor
+GenericName=Text Editor
+Exec=/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-8108397b9074c79fe180d4275645890b9d8ab4a0eb4bc45dff0ee86f3ab9c23c/Cursor-linux-x64/cursor-nightly %F
+Icon=cursor
+Terminal=false
+Type=Application
+MimeType=text/plain;text/x-chdr;text/x-csrc;text/x-c++hdr;text/x-c++src;text/x-java;text/x-dsrc;text/x-pascal;text/x-perl;text/x-python;application/x-php;application/x-httpd-php3;application/x-httpd-php4;application/x-httpd-php5;application/javascript;application/json;text/css;text/html;text/xml;text/x-sql;text/x-diff;inode/directory;
+StartupNotify=true
+StartupWMClass=Cursor
+Categories=TextEditor;Development;IDE;
+Keywords=vscode;editor;ide;development;programming;code;
+Actions=new-empty-window;
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-8108397b9074c79fe180d4275645890b9d8ab4a0eb4bc45dff0ee86f3ab9c23c/Cursor-linux-x64/cursor-nightly --new-window
+Icon=cursor
